@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(213, 206, 206);
+    margin: 0;
+}
+
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 1px;
+}
+
+.logo {
+    width: 70px;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    font-family: "Changa", sans-serif;
+}
+
+
+.tela {
+    background: url('img/inicio.png') no-repeat center center / cover;
+    color: #fff;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+}
+
+.tela::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+
+.telaa {
+    position: relative;
+    z-index: 2; 
+}
+
+.telaa h1 {
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.telaa p {
+    font-size: 1.5em;
+    margin: 0 10px 80px;
+    margin-bottom: 50px; 
+}
+
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #4b2e12;
+    margin-bottom: 130px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}

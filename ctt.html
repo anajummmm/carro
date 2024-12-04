@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Concessionária CARS</title>
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logoo.png" alt="Logo Concessionária" class="logo">
+        <h1>CARS</h1>
+    </header>
+
+    <div class="contato">
+        <h2>Entre em Contato</h2>
+        <p>Se você tiver alguma dúvida ou quiser mais informações sobre nossos carros, preencha o formulário abaixo e entraremos em contato com você o mais breve possível.</p>
+
+        <form action="contato@concessionariacars.com" method="POST" enctype="multipart/form-data">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <div class="voltar">
+        <a href="index.html" class="botao">Voltar ao começo</a>
+    </div>
+</body>
+</html>
